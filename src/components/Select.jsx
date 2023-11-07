@@ -7,7 +7,7 @@ const Select = ({ setBoroughFilter }) => {
     <>
       <label htmlFor="boroughs">Borough</label>
       <select onChange={selecter} name="boroughs" id="boroughs">
-        <option value="Select">Select</option>
+        <option value="all">All</option>
         <option value="Manhattan">Manhattan</option>
         <option value="Brooklyn">Brooklyn</option>
         <option value="Queens">Queens</option>
